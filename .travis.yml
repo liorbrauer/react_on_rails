@@ -1,6 +1,12 @@
+sudo: required
+
 language: ruby
+
 rvm:
 - 2.2.2
+
+services:
+  - docker
 
 gemfile:
 - spec/dummy/Gemfile
