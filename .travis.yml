@@ -33,8 +33,8 @@ install:
   - $(npm bin)/webpack --config webpack.server.js
   - $(npm bin)/webpack --config webpack.client.js
 
-#before_script:
-#  - cd ../../
+before_script:
+  - cd ../../
 #  - export DISPLAY=:1
 #  - sh -e Xvfb :1 -screen 0 1600x1200x16
 
